@@ -1,7 +1,5 @@
 # ShieldOrder
 
-## GitHub Profile
-
 This profile hosts independent, public infrastructure artifacts focused on governance process clarity and verification hygiene.
 
 The work here does not advocate outcomes, assign authority, or replace human judgment. It provides portable structure that makes decision processes legible, auditable, and durable across institutional turnover.
@@ -11,7 +9,6 @@ The work here does not advocate outcomes, assign authority, or replace human jud
 ## Active Artifacts
 
 ### Process Layer Doctrine (PLD)
-
 A mechanism-neutral doctrine defining execution hygiene for governance and grant systems.
 
 PLD focuses on:
@@ -26,7 +23,6 @@ https://github.com/ShieldOrder/process-layer-doctrine
 ---
 
 ### Proposal Disclosure Schema (PDS)
-
 An opt-in disclosure template for grant applicants and evaluators.
 
 PDS focuses on:
@@ -40,15 +36,30 @@ https://github.com/ShieldOrder/proposal-disclosure-schema
 
 ---
 
-### ZEC Pooled Solvency Feasibility
+### Evaluation Surfaces
+An analytical taxonomy separating **decision surfaces** from **legitimacy signals** in governance contexts.
 
+This repository focuses on:
+- Classifying types of governance decisions independent of who decides them
+- Describing legitimacy signals as inputs, not authorities
+- Documenting recurring failure modes when signals are misapplied
+- Reducing category errors in governance reasoning
+
+It does not propose mechanisms, recommend reforms, or take positions on governance debates.
+
+Repository:  
+https://github.com/ShieldOrder/evaluation-surfaces
+
+---
+
+### ZEC Pooled Solvency Feasibility
 A research-only feasibility boundary for pooled ZEC solvency proofs under current Zcash constraints.
 
-This repository defines when such systems should *not* be built.
+This repository defines conditions under which such systems **should not be built**.
 
 Focus:
 - ZEC-only, Orchard-only
-- No protocol changes
+- No protocol changes assumed
 - Deterministic, offline verification
 - Explicit failure and stop conditions
 - Feasibility analysis without advocacy
@@ -60,9 +71,10 @@ https://github.com/ShieldOrder/zec-pooled-solvency-feasibility
 
 ## How These Fit Together
 
-- **PLD** addresses how evaluation and oversight are structured.
-- **PDS** addresses what information is disclosed into that structure.
-- **ZEC Pooled Solvency Feasibility** defines cryptographic feasibility boundaries for a specific class of systems.
+- **PLD** addresses *how* evaluation and oversight are structured.
+- **PDS** addresses *what* information is disclosed into that structure.
+- **Evaluation Surfaces** addresses *how decisions and signals are conceptually separated*.
+- **ZEC Pooled Solvency Feasibility** addresses cryptographic feasibility boundaries for a specific system class.
 
 They are complementary and independent. None requires adoption of the others.
 
