@@ -1,0 +1,34 @@
+# Build
+build/
+cmake-build-*/
+*.o
+*.a
+*.so
+*.dylib
+shieldorder
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+compile_commands.json
+
+# Rithmic SDK (user-provided, not tracked)
+rithmic_api/include/
+rithmic_api/lib/
+rithmic_api/certs/
+
+# Logs
+*.log
+
+# Config with credentials (template is tracked, not live config)
+config/live.ini
+
+# Third party
+third_party/
+
+# OS
+.DS_Store
+Thumbs.db
