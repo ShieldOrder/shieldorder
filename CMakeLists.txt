@@ -19,6 +19,12 @@ set(SOURCES
     src/position_scaler.cpp
     src/config.cpp
     src/logger.cpp
+    # Order flow analysis modules
+    src/tape_reader.cpp
+    src/footprint_engine.cpp
+    src/book_analyzer.cpp
+    src/market_structure.cpp
+    src/scalp_engine.cpp
 )
 
 add_executable(shieldorder ${SOURCES})
